@@ -1,0 +1,156 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #546090;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-button {
+    color: #ff99cc;
+    
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    height: fit-content;
+}
+
+.delete-button:hover {
+    color: #973206;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: #333;
+    width: 300px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+input[type="number"] {
+    width: 200px;
+}
+
+input:first-of-type {
+    border-radius: 20px 0px 0px 20px;
+}
+
+button:hover {
+    background-color: #7c9bff;
+}
+
+#addAlbumJson {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    border-radius: 20px 20px 0px 0px;
+    padding: 20px;
+    outline: none;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+button,
+.button {
+    background-color: #546090;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    text-decoration: none;
+    min-height: 40px;
+    box-sizing: border-box;
+}
+
+button.addAlbum {
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+button.searchAlbums {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .search {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+.nullTitle {
+    color: #ff0000;
+}
+
+.containerF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#albumDetailsForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+
+    button {
+        width: 400px;
+        min-height: 40px;
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .formContainer {
+        display: flex;
+
+        .formColumn {
+            display: flex;
+            flex-direction: column;
+            margin-right: 40px;
+
+
+            input {
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+
+            label {
+                margin: 0px;
+            }
+        }
+    }
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8f1"
+    },
+    "title": "Born to Die",
+    "artists": [
+        "Lana Del Rey"
+    ],
+    "duration": 50,
+    "details": {
+        "producer": {
+            "name": "Emile Haynie",
+            "nationality": "American"
+        },
+        "year": 2012
+    }
+},
+
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8f4"
+    },
+    "title": "Abbey Road",
+    "artists": [
+        "The Beatles"
+    ],
+    "duration": 47,
+    "details": {
+        "producer": {
+            "name": "George Martin",
+            "nationality": "British"
+        },
+        "year": 1969
+    }
+},
+
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8f2"
+    },
+    "title": "Ultraviolence",
+    "artists": [
+        "Lana Del Rey"
+    ],
+    "duration": 60,
+    "details": {
+        "producer": {
+            "name": "Dan Auerbach",
+            "nationality": "American"
+        },
+        "year": 2014
+    }
+},
+
+
+
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8f5"
+    },
+    "title": "Thriller",
+    "artists": [
+        "Michael Jackson"
+    ],
+    "duration": 42,
+    "details": {
+        "producer": {
+            "name": "Quincy Jones",
+            "nationality": "American"
+        },
+        "year": 1982
+    }
+},
+
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8f3"
+    },
+    "title": "Norman Fucking Rockwell!",
+    "artists": [
+        "Lana Del Rey"
+    ],
+    "duration": 67,
+    "details": {
+        "producer": {
+            "name": "Jack Antonoff",
+            "nationality": "American"
+        },
+        "year": 2019
+    }
+},
+
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8f6"
+    },
+    "title": "The Dark Side of the Moon",
+    "artists": [
+        "Pink Floyd"
+    ],
+    "duration": 43,
+    "details": {
+        "producer": {
+            "name": "Alan Parsons",
+            "nationality": "British"
+        },
+        "year": 1973
+    }
+},
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8f7"
+    },
+    "title": "Back in Black",
+    "artists": [
+        "AC/DC"
+    ],
+    "duration": 42,
+    "details": {
+        "producer": {
+            "name": "Robert John \"Mutt\" Lange",
+            "nationality": "British"
+        },
+        "year": 1980
+    }
+},
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8f8"
+    },
+    "title": "Rumours",
+    "artists": [
+        "Fleetwood Mac"
+    ],
+    "duration": 39,
+    "details": {
+        "producer": {
+            "name": "Ken Caillat",
+            "nationality": "American"
+        },
+        "year": 1977
+    }
+},
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8f9"
+    },
+    "title": "Hotel California",
+    "artists": [
+        "Eagles"
+    ],
+    "duration": 43,
+    "details": {
+        "producer": {
+            "name": "Bill Szymczyk",
+            "nationality": "American"
+        },
+        "year": 1976
+    }
+},
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8fa"
+    },
+    "title": "The Wall",
+    "artists": [
+        "Pink Floyd"
+    ],
+    "duration": 81,
+    "details": {
+        "producer": {
+            "name": "Bob Ezrin",
+            "nationality": "Canadian"
+        },
+        "year": 1979
+    }
+},
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8fb"
+    },
+    "title": "Nevermind",
+    "artists": [
+        "Nirvana"
+    ],
+    "duration": 42,
+    "details": {
+        "producer": {
+            "name": "Butch Vig",
+            "nationality": "American"
+        },
+        "year": 1991
+    }
+},
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8fc"
+    },
+    "title": "Sgt. Pepper's Lonely Hearts Club Band",
+    "artists": [
+        "The Beatles"
+    ],
+    "duration": 40,
+    "details": {
+        "producer": {
+            "name": "George Martin",
+            "nationality": "British"
+        },
+        "year": 1967
+    }
+},
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8fd"
+    },
+    "title": "21",
+    "artists": [
+        "Adele"
+    ],
+    "duration": 48,
+    "details": {
+        "producer": {
+            "name": "Rick Rubin",
+            "nationality": "American"
+        },
+        "year": 2011
+    }
+},
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8fe"
+    },
+    "title": "Rumours",
+    "artists": [
+        "Fleetwood Mac"
+    ],
+    "duration": 39,
+    "details": {
+        "producer": {
+            "name": "Ken Caillat",
+            "nationality": "American"
+        },
+        "year": 1977
+    }
+},
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e8ff"
+    },
+    "title": "Back to Black",
+    "artists": [
+        "Amy Winehouse"
+    ],
+    "duration": 35,
+    "details": {
+        "producer": {
+            "name": "Mark Ronson",
+            "nationality": "British"
+        },
+        "year": 2006
+    }
+},
+{
+    "_id": {
+        "$oid": "6629061d81892b3eb310e900"
+    },
+    "title": "The Fame",
+    "artists": [
+        "Lady Gaga"
+    ],
+    "duration": 54,
+    "details": {
+        "producer": {
+            "name": "RedOne",
+            "nationality": "Moroccan"
+        },
+        "year": 2008
+    }
+}
+
+]

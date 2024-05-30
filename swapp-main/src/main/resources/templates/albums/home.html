@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Music Albums</title>
+    <link rel="stylesheet" th:href="@{/css/baseStyles.css}">
+    <link rel="stylesheet" th:href="@{/css/albums/styles.css}" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script th:src="@{/js/albums/albums.js}" defer></script>
+</head>
+
+<body>
+    <div th:replace="~{menu :: menuFragment}"></div>
+    <h1>Music Album List</h1>
+    <div class="header">
+        <div class="searchBar">
+            <div class="search">
+                <input type="text" id="artistsInput" placeholder="Artists name"
+                    th:value="${searchArtists != null ? searchArtists : ''}" />
+                <input type="number" id="minDurationInput" min="0" placeholder="Min duration"
+                    th:value="${searchMinDuration != null ? searchMinDuration : ''}" />
+                <input type="number" id="maxDurationInput" min="0" placeholder="Max duration"
+                    th:value="${searchMaxDuration != null ? searchMaxDuration : ''}" />
+                <button class="searchAlbums" onclick="searchAlbums()">Search</button>
+            </div>
+        </div>
+        <a href="/albums/add" class="button">Add Album</a>
+    </div>
+    <ul id="albumsList">
+        <li th:each="album : ${albums}">
+            <div>
+                <h2 th:class="${album.title == null || album.title == '' ? 'nullTitle' : ''}" th:text="${album.title ?: 'No title set'}">
+                    Album title</h2>
+                    <p>
+                        Artists:
+                        <span th:each="artist : ${album.artists}" th:text="${artist}"></span>
+                    </p>
+                    
+                <p th:text="'Duration: ' + ${album.duration} + ' minutes'">No duration set</p>
+            </div>
+            <i class="fas fa-trash delete-button" th:data-id="${album.id}"></i>
+        </li>
+    </ul>
+
+</body>
+
+</html>
